@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-top: 30px;
+  height: 100vh;
+  overflow: hidden;
+  width: 500px;
+  background-color: rgb(255, 252, 247);
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+}
